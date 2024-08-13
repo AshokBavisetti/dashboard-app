@@ -1,0 +1,44 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content-area {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+.header-item {
+  margin: 5px;
+}
+
+.data-table {
+  flex: 3;
+  padding: 10px;
+}
+
+.workflow-sidebar {
+  flex: 1;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+.workflow-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.workflow-sidebar li {
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+}
