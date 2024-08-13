@@ -175,7 +175,7 @@ const initialState = {
 
 const dataReducer = (state = initialState, action) => {
   switch (action.type) {
-    // Add case statements as needed for handling actions
+  
     default:
       return state;
   }
